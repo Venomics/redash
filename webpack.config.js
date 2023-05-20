@@ -37,7 +37,7 @@ const isHotReloadingEnabled =
 const redashBackend = process.env.REDASH_BACKEND || "http://localhost:5000";
 const baseHref = CONFIG.baseHref || "/";
 const staticPath = CONFIG.staticPath || "/static/";
-const htmlTitle = CONFIG.title || "Re:Doubt TONAlytica";
+const htmlTitle = CONFIG.title || "Venomics";
 
 const basePath = path.join(__dirname, "client");
 const appPath = path.join(__dirname, "client", "app");

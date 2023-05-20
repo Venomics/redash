@@ -99,7 +99,7 @@ routes.register(
   "Home",
   routeWithUserSession({
     path: "/",
-    title: "Re:Doubt TONAlytica",
+    title: "Venomics",
     render: pageProps => <Home {...pageProps} />,
   })
 );
